@@ -1,0 +1,53 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+}
+
+header {
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.patient-info, .medical-record {
+    margin-bottom: 20px;
+}
+
+.patient-info h2, .medical-record h2 {
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.patient-info p {
+    margin-bottom: 10px;
+}
+
+.medical-record ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.medical-record ul li {
+    margin-bottom: 5px;
+}
+
+
